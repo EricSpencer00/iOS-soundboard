@@ -10,9 +10,22 @@
 		972D1C882E49449D00142D12 /* Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		972D1CCB2E494F1200142D12 /* Exceptions for "Soundboard" folder in "Soundboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 972D1C872E49449D00142D12 /* Soundboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		972D1C8A2E49449D00142D12 /* Soundboard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				972D1CCB2E494F1200142D12 /* Exceptions for "Soundboard" folder in "Soundboard" target */,
+			);
 			path = Soundboard;
 			sourceTree = "<group>";
 		};
